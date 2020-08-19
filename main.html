@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Login and registration form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body >
+
+        <div class="hero">
+            <div class="form-box">
+                <div class="button-box" >
+                    <div id="btn"></div>
+                    <button type="button" class="toggle-btn" onclick="login()">log In</button>
+                    <button type="button" class="toggle-btn" onclick="signup()">Sign Up</button>
+                </div>
+                <div class="icons">
+                    <img src="fb.png">
+                    <img src="tweet.png">
+                </div>
+                <form id="login" class="input-group">
+                    <input type="text" class="input-field" placeholder="User ID" required>
+                    <input type="text" class="input-field" placeholder="Enter password" required>
+                    <input type="checkbox" class="chech-box"> <span>Remember Password</span>
+                    <button type="submit" class="submit-btn">Log in</button>
+                </form>
+                <form id="signup" class="input-group">
+                    <input type="text" class="input-field" placeholder="User ID" required>
+                    <input type="email" class="input-field" placeholder="Email ID" required>
+                    <input type="text" class="input-field" placeholder="Enter password" required>
+                    <input type="checkbox" class="chech-box"> <span>I agree to the terms and condtions</span>
+                    <button type="submit" class="submit-btn">Sign up</button>
+                </form>
+            </div>
+        </div>
+<script>
+ var x = document.getElementById("login");
+ var y = document.getElementById("signup");
+ var z = document.getElementById("btn");
+
+function signup(){
+    x.style.left="-400px";
+    y.style.left = "50px";
+    z.style.left = "110px";
+}
+    function login() {
+        x.style.left = "50px";
+        y.style.left = "450px";
+        z.style.left = "0";
+    }
+</script>
+
+<p align="right">
+    <center>
+        <marquee width=100% Bgcolor="grey" height=200 behavior="alternate">Designed byAlexander Mutisya.</marquee>
+    </center>
+
+    </body>
+</html>
