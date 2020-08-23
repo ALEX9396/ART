@@ -39,7 +39,7 @@
 			$from = 0;
 		}
 		
-		if(count($listings)<$limit){
+		if($total<$limit){
 			$to = $total;
 		}
 		
