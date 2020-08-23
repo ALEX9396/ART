@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} ^.*/static.*$
+RewriteRule ^(.*)$ - [L,NC]
+RewriteCond %{REQUEST_URI} ^.*/media.*$
+RewriteRule ^(.*)$ - [L,NC]
+RewriteRule ^ public/index.php

@@ -1,0 +1,12 @@
+{
+    "db": {
+        "host": "127.0.0.1",
+        "username": "root",
+        "password": "",
+        "database": "art"
+    },
+    "debug": {
+        "status": true,
+        "debug_uris": ["artstore", "localhost/sites/ART"]
+    }
+}
