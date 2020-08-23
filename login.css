@@ -7,7 +7,7 @@
 .hero{
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(221, 241, 241, 0),rgb(181, 186, 194)),url(3.jpg);
+    background-image: linear-gradient(rgba(221, 241, 241, 0),rgb(181, 186, 194)),url(images/x.jpg);
     background-position: center;
     background-size: cover;
     position: absolute;
