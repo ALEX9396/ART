@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: cursive;
     overflow: hidden;
 }
 .hero{
@@ -20,10 +20,9 @@
     padding: 5px;
 }
 .button-box{
-    width: 210px;
+    width: 230px;
     margin: 15px auto;
     position: relative;
-    box-shadow: 0 0 20px 3px aqua ;
     border-radius: 50px;
 }
 .toggle-btn{
@@ -50,14 +49,13 @@
     text-align: center;
 }
 .icons img{
-    width: 30px;
-    margin: 0 12px;
-    box-shadow: 0 0 10px 0 aqua;
+    width: 40px;
+    margin: 10px;
     cursor: pointer;
     border-radius: 50%;
 }
 .input-group{
-    top: 180;
+    top: 135;
     position: absolute;
     width: 280px;
     transition: .5s;
@@ -100,3 +98,6 @@ span{
 #signup{
     left: 450px;
 }
+
+
+
