@@ -160,10 +160,10 @@ h3{
 .testimonial .col-3:hover{
     transform: translateY(-10px);
 }
-.brands{
-    margin: 50px;
+.social-media{
+    margin: 40px;
     background: black;
-    padding: 50px;
+    padding: 70px;
 }
 .footer .row{
     display: flex;
@@ -174,8 +174,9 @@ h3{
 .col-5 img{
     width: 100px;
     cursor: pointer;
-    margin-left: 90px;
+    align-items: center;
     filter: grayscale(100%);
+    margin: 70px;
 }
 .col-5 img:hover{
     filter: grayscale(0);
