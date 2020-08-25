@@ -4,7 +4,7 @@
     box-sizing: border-box; 
     background-color: black;
     color: aqua;
-     font-family: cursive;
+    font-family: cursive;
 }
 .navbar{
     display: flex;
@@ -55,7 +55,7 @@ a{
     line-height: 50px;
     margin: 25px 0;
 }
-.btn{
+.btnn{
     display: inline-block;
     background: aqua;
     color: rgb(250, 250, 250);
