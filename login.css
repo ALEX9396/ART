@@ -7,8 +7,7 @@
 .hero{
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(221, 241, 241, 0),rgb(181, 186, 194)),url(images/x.jpg);
-    background-position: center;
+    background-color: black;
     background-size: cover;
     position: absolute;
 }
@@ -17,14 +16,14 @@
     height: 480px;
     margin: 6% auto;
     position: relative;
-    background: rgb(0,0,0,.6);
+    background:black;
     padding: 5px;
 }
 .button-box{
     width: 210px;
     margin: 15px auto;
     position: relative;
-    box-shadow: 0 0 20px 9px rgb(105, 146, 160) ;
+    box-shadow: 0 0 20px 3px aqua ;
     border-radius: 50px;
 }
 .toggle-btn{
@@ -34,7 +33,7 @@
     border: 0;
     outline: none;
     position: relative;
-    color: rgb(223, 215, 215);
+    color: white;
 }
 #btn{
     top:0;
@@ -42,7 +41,7 @@
     position: absolute;
     width: 110px;
     height: 100%;
-    background: linear-gradient(to right, rgb(169, 188, 224),rgb(49, 148, 148));
+    background: aqua;
     border-radius: 30px;
     transition: .5s;
 }
@@ -53,7 +52,7 @@
 .icons img{
     width: 30px;
     margin: 0 12px;
-    box-shadow: 0 0 20px 0 white;
+    box-shadow: 0 0 10px 0 aqua;
     cursor: pointer;
     border-radius: 50%;
 }
@@ -80,17 +79,17 @@
     cursor: pointer;
     display: block;
     margin: auto;
-    background: linear-gradient(to right,rgb(240, 236, 236),rgb(20, 22, 22));
+    background: aqua;
     border: 0;
     outline: none;
     border-radius: 30px;
-    color: rgb(191, 219, 247);
+    color: white;
 }
 .chech-box{
     margin: 30px 10px 30px 0;
 }
 span{
-    color: rgb(86, 213, 230);
+    color: aqua;
     font-size: 12px;
     bottom: 68px;
     position: absolute;
