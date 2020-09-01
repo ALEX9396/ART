@@ -56,6 +56,7 @@ a{
     font-size: 50px;
     line-height: 50px;
     margin: 15px;
+    margin-left: 0;
 }
 .btnn{
     display: inline-block;
@@ -145,11 +146,12 @@ h3{
     padding-top: 50px;
 }
 .testimonial .col-3{
-    text-align: center;
-    padding: 40px;
+    text-align: left;
+    padding: 20px;
     box-shadow: 0 0 20px 0px; color:white;
     cursor: pointer;
     transition: transform 0.5s;
+    margin: 20px;
 }
 .testimonial .col-3 img{
     width: 50px;
@@ -178,7 +180,6 @@ h3{
     margin: 70px;
     margin-top: 20px;
 }
-
 .input-field{
     width: 30%;
     padding: 10px;
@@ -189,4 +190,65 @@ h3{
     border-bottom: 2px solid gray;
     outline: none;
     background: transparent;
+}
+
+/*media queries*/
+@media screen and (max-width: 600px) {
+    .col-2, .col-3, .col-4{
+        flex-basis: 100%;
+    }
+    h1{
+        font-size: 45px;
+    }
+}
+
+@media screen and (min-width: 605px){
+    h1{
+        margin: 10px;
+    }
+}
+@media screen and (max-width: 280px){
+    .offer .col-2 h2{
+    font-size: 20px;
+    margin-left: 0;
+    }
+    .offer .col-2 p{
+    font-size: 13px;
+    }
+    .offer .col-2 img{
+        height: 290px;
+    }
+}
+@media screen and (max-width: 500px){
+    h1{
+    display: none;
+    }
+    nav{
+    text-align: left;
+}
+}
+@media screen and (max-width: 570px){
+   .col-2 h2{
+    font-size: 35px;
+    margin-left: 0;
+    }
+    .container .col-2{
+        padding: 0;
+    }
+}
+@media screen and (min-width: 281px) and (max-width: 370px){
+   .offer .col-2 h2{
+    font-size: 25px;
+    margin-left: 0;
+    }
+    .offer .col-2 p{
+        font-size: 15px;
+    }
+    .offer .col-2 img{
+        height: 350px;
+    }
+    .testimonial .col-3 p{
+        font-size: 15px;
+        text-align: left;
+    }
 }
