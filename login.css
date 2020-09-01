@@ -9,7 +9,7 @@
 .form-box{
     width: 380px;
     height: 480px;
-    margin: 6% auto;
+    margin: 6px auto;
     position: relative;
     background:black;
     padding: 5px;
@@ -91,4 +91,49 @@ span{
 #signup{
     left: 450px;
 }
+
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color:aqua;
+}
+.container{
+    margin: auto;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+h1{
+    color: orange;
+    font-size: 60px;
+    line-height: 85px;
+    font-weight: bold;
+}
+.submit-btn:hover{
+    background: orange;
+}
+
 
