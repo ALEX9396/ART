@@ -37,10 +37,6 @@
     border-radius: 30px;
     transition: .5s;
 }
-.icons{
-    margin: 6px auto;
-    text-align: center;
-}
 .input-group{
     top: 100;
     position: absolute;
