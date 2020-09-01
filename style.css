@@ -27,10 +27,10 @@ a{
     color:aqua;
 }
 .container{
-    height: 550px;
     margin: 10px;
     padding-right: 25px;
     padding-left: 25px;
+    margin-bottom: -30px;
 }
 .row{
     display: flex;

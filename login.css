@@ -41,14 +41,8 @@
     margin: 6px auto;
     text-align: center;
 }
-.icons img{
-    width: 40px;
-    margin: 10px;
-    cursor: pointer;
-    border-radius: 50%;
-}
 .input-group{
-    top: 170;
+    top: 100;
     position: absolute;
     width: 280px;
     transition: .5s;
