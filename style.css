@@ -192,20 +192,22 @@ h3{
     .col-2, .col-3, .col-4{
         flex-basis: 100%;
     }
-    h1{
-        font-size: 45px;
-    }
 }
 
-@media screen and (min-width: 605px){
+@media screen and (max-width: 600px){
     h1{
-        margin: 10px;
+        font-size: 43px;
+    }
+}
+@media screen and (min-width: 601px){
+    h1{
+        margin: 7px;
+        line-height: 65px;
     }
 }
 @media screen and (max-width: 280px){
     .offer .col-2 h2{
     font-size: 20px;
-    margin-left: 0;
     }
     .offer .col-2 p{
     font-size: 13px;
@@ -225,6 +227,7 @@ h3{
 @media screen and (max-width: 570px){
    .col-2 h2{
     font-size: 35px;
+    line-height: 40px;
     margin-left: 0;
     }
     .container .col-2{
@@ -247,9 +250,11 @@ h3{
         text-align: left;
     }
 }
-@media screen and (max-width:280px){
+@media screen and (max-width:350px){
     .container .col-2 h2{
-        display:none;
+        font-size: 30px;
+        line-height: 30px;
+        padding: 5px;
     }
 }
 @media screen and (min-width: 501px){
