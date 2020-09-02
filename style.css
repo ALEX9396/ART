@@ -189,13 +189,18 @@ h3{
 
 /*media queries*/
 @media screen and (max-width: 600px) {
-    .col-2, .col-3, .col-4{
+    .col-4{
         flex-basis: 100%;
     }
-}
-
-@media screen and (max-width: 600px){
-    h1{
+    .col-2 h2{
+    font-size: 35px;
+    line-height: 40px;
+    margin-left: 0;
+    }
+    .container .col-2{
+        padding: 0;
+    }
+     h1{
         font-size: 43px;
     }
 }
@@ -222,16 +227,6 @@ h3{
     }
     nav{
     text-align: left;
-}
-}
-@media screen and (max-width: 570px){
-   .col-2 h2{
-    font-size: 35px;
-    line-height: 40px;
-    margin-left: 0;
-    }
-    .container .col-2{
-        padding: 0;
     }
 }
 @media screen and (min-width: 281px) and (max-width: 370px){
