@@ -218,7 +218,7 @@ h3{
     font-size: 13px;
     }
     .offer .col-2 img{
-        height: 290px;
+        height: 200px;
     }
 }
 @media screen and (max-width: 500px){
@@ -227,6 +227,9 @@ h3{
     }
     nav{
     text-align: left;
+    }
+    .offer .col-2 img{
+        height: 250px;
     }
 }
 @media screen and (min-width: 281px) and (max-width: 370px){
@@ -238,7 +241,7 @@ h3{
         font-size: 15px;
     }
     .offer .col-2 img{
-        height: 350px;
+        height: 250px;
     }
     .testimonial .col-3 p{
         font-size: 15px;
